@@ -37,4 +37,7 @@ if(grade == "a" || grade == "A" || grade == "a+" || grade == "A+") {
 
 }else if(grade == "f" || grade == "F") {
   console.log("\nYour GPA is 0.\n");
+
+}else{
+      console.log("\nInvalid.\n")
 }
