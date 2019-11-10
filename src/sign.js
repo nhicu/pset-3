@@ -6,14 +6,14 @@ const max = Number.MAX_SAFE_INTEGER;
 const number = Number(readlineSync.question("\nEnter a number: "));
 
 if(isNaN(number)) {
-  console.log("\nInvalid.");
+  console.log("\nInvalid.\n");
 
 }else if (number==0) {
-  console.log("\nZero.");
+  console.log("\nZero.\n");
 
 }else if (number<0) {
-  console.log("\nNegative.");
+  console.log("\nNegative.\n");
 
 }else if(number>0)  {
-  console.log("\nPositive.");
+  console.log("\nPositive.\n");
 }

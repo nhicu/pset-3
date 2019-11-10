@@ -25,5 +25,5 @@ if (Number.isNaN(amount)) {
   let amount3 = amount2 % N;
   let Pennies = Math.ceil(amount3 / P);
     // write your code for making change here
-  console.log("\n" + Quarters + " quarters, " + Dimes + " dimes, " + Nickels + " nickels, and " + Pennies + " pennies.");
+  console.log("\n" + Quarters + " quarters, " + Dimes + " dimes, " + Nickels + " nickels, and " + Pennies + " pennies.\n");
 }
